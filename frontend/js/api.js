@@ -3,7 +3,8 @@
 // 🚀 PRODUCTION RENDER BACKEND URL:
 // Render backend is connected here:
 // =========================================================================
-const RENDER_BACKEND_URL = 'https://institute-chatbot-1.onrender.com';
+const RENDER_BACKEND_URL =
+    'https://institute-chatbot-1.onrender.com/api/v1';
 
 const API_URL = window.API_BASE_URL || (
     (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
