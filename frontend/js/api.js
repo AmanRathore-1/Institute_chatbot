@@ -3,13 +3,13 @@
 // 🚀 PRODUCTION RENDER BACKEND URL:
 // Render backend is connected here:
 // =========================================================================
-const RENDER_BACKEND_URL = 'https://institute-chatbot.onrender.com/api/v1';
+const RENDER_BACKEND_URL = 'https://institute-chatbot-1.onrender.com';
 
 const API_URL = window.API_BASE_URL || (
     (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
         ? (window.location.port === '5500' ? 'http://127.0.0.1:8000/api/v1' : `${window.location.origin}/api/v1`)
         : (RENDER_BACKEND_URL || `${window.location.origin}/api/v1`)
-)
+);
 
 // Robust check for Auth pages (works on local file, .html, and Vercel clean URLs like /login, /register)
 function checkIsAuthPage() {
