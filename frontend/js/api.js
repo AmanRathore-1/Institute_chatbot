@@ -3,7 +3,7 @@
 // 🚀 PRODUCTION RENDER BACKEND URL:
 // Render backend is connected here:
 // =========================================================================
-const RENDER_BACKEND_URL = 'https://college-ai-assistant-kxzf.onrender.com/api/v1';
+const RENDER_BACKEND_URL = 'https://institute-chatbot.onrender.com';
 
 const API_URL = window.API_BASE_URL || (
     (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
